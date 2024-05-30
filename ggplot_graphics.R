@@ -6,12 +6,11 @@ library(gridExtra)
 library(ggpubr)
 
 # 2) Loading data
-reading_data <- read_excel(file.choose())
+reading_data <- read_excel(file.choose()) # RD_data
 reading_data
-math_data <- read_excel(file.choose())
+math_data <- read_excel(file.choose()) # MD_data
 math_data
-all_data <- read_excel(file.choose())
-
+all_data <- read_excel(file.choose()) # All_data
 
 
 ################ ALL GENDER AND AGE ##########
