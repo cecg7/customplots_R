@@ -4,10 +4,10 @@ library(ggplot2)
 library(ggpubr)
 
 # Loading Psychometric Data for: 
-# reading
+# Reading: Use RD_data.xlsx
 S1_read <- read_excel(file.choose())
 S1_read
-# math
+# Math: Use MD_data.xlsx
 S1_math <- read_excel(file.choose())
 S1_math
 
